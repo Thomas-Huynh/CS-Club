@@ -13,6 +13,6 @@ for i in range (num_photos - 1):
 
 biggest = slopes[0]
 for i in range (1, len(slopes)):
-    if slopes[i] > slopes[i - 1]:
+    if slopes[i] > biggest:
         biggest = slopes[i]
 print(int(biggest))
